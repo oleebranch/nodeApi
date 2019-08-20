@@ -14,7 +14,7 @@ app.get('/', function (req, res) {
   })
 })
 
-// Routing the jssonData variable
+// Routing the jsonData variable
 app.get('/data', function (req, res) {
   res.json(jsonData)
 })
