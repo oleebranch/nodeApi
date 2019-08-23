@@ -6,7 +6,7 @@ var jsonData = { count: 1962, message: 'Uganda Yaffe!' }
 
 // Routing the index file to home
 app.get('/', function (req, res) {
-  // eslint-disable-next-line no-path-concat
+  
   res.sendFile(__dirname + '/index.html', function (err) {
     if (err) {
       res.status(500).send(err)
