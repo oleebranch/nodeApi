@@ -1,2 +1,2 @@
 # nodeApi
-Building an API using NodeJS alongside Express &amp; MongoDB
+Building an API using NodeJS alongside Express &amp; MySQL
